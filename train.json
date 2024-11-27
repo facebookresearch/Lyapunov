@@ -1,0 +1,33 @@
+{
+    "n_enc_layers": [6],
+    "n_dec_layers": [6],
+    "emb_dim": [640],
+    "n_heads": [10],
+    "batch_size": [4],
+    "batch_size_eval": [16],
+
+    "max_src_len": [0],
+    "max_len": [1024],
+    "max_output_len": [512],
+    "optimizer": ["adam_inverse_sqrt,warmup_updates=10000,lr=0.0001"],
+    "epoch_size": [300000],
+    "max_epoch": [100000],
+    "num_workers": [1],
+    "export_data": ["false"],
+
+    "eval_size": [200],
+    "eval_verbose": [0],
+    "beam_eval": ["true"],
+
+    "lyap_polynomial_H": ["true"],
+    "lyap_basic_functions_num": ["true"],
+    "lyap_pure_polynomial": ["true"],
+    "lyap_SOS_checker": ["true"],
+    "lyap_SOS_fwd_gen": ["false"],
+    
+    "stopping_criterion": ["valid_ode_lyapunov_beam_acc,100"],
+    "validation_metrics": ["valid_ode_lyapunov_beam_acc"],
+ 
+    "reload_size": [-1],  
+    "reload_data": ["ode_lyapunov,/path/to/your/dataset.train,/path/to/your/dataset.valid.final,benchmarks/BPoly,benchmarks/FBarr,benchmarks/FLyap,benchmarks/FSOSTOOL"]
+}
