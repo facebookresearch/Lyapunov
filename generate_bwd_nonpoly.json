@@ -1,0 +1,26 @@
+{
+    "num_workers": [10],
+    "cpu": ["true"],
+    "export_data": ["true"],
+    "reload_data": [""],
+    "max_len": [0],
+    "max_output_len": [0],
+
+    "min_degree": [2],
+    "max_degree": [3],
+    "lyap_max_degree": [4],
+
+    "lyap_polynomial_H": ["false"],
+    "lyap_basic_functions_num": ["false"],
+    "lyap_pure_polynomial": ["false"],
+    "lyap_proba_proper_composition": [0.2],
+    "lyap_proba_proper_multiply": [0.2],
+    "lyap_proba_cross_composition": [0.2],
+    "lyap_proba_cross_multiply": [0],
+    "max_int": [3],
+
+    "lyap_find_domain": ["true"],
+    "lyap_SOS_checker": ["false"],
+    "lyap_SOS_fwd_gen": ["false"],
+    "lyap_proper_fwd": ["false"]
+}
