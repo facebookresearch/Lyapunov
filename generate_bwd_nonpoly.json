@@ -10,7 +10,7 @@
     "max_degree": [3],
     "lyap_max_degree": [4],
 
-    "lyap_polynomial_H": ["false"],
+    "lyap_polynomial_H": ["true"],
     "lyap_basic_functions_num": ["false"],
     "lyap_pure_polynomial": ["false"],
     "lyap_proba_proper_composition": [0.2],
