@@ -13,7 +13,7 @@ and then run
 ```
 conda activate Lyapunov
 ```
-Typically, we use Lyapunov_python_3_9 locally (with conda 4.12.0 and pip 24.3.1) and Lyapunov_python_3_10 on our clusters for compatibility issues. The only differences are in the version of python, dreal and torch.
+Typically, we use Lyapunov_python_3_9 locally (with conda 4.12.0 and pip 24.3.1) and Lyapunov_python_3_10 on our clusters for compatibility issues. The only differences are in the version of python, dreal and torch. These environments were designed for Linux and Mac. Windows users may encounter some difficulties as dReal as a package might not be supported.
 
 **Benchmarks**
 - We provide 4 files in the `/benchmarks` folder. Those benchmarks represent the cited BPoly, FBarr, FLyap and FSOSTOOL.
